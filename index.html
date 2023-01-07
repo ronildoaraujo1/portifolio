@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ronildo Araujo | Portfólio pessoal</title>
+        <!-- Favicon -->
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+        <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+        <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+        <!-- JS -->
+    <script defer src="script.js"></script>
+</head>
+<body>          
+    <header>
+        <nav class="navbar">
+            
+            <div class="owner">
+                <span>Ronildo Araujo</span>
+            </div>
+
+            <div class="nav_list">
+                <ul>
+                    <li class="nav_item"><a href="#home">Início</a></li>
+                    <li class="nav_item"><a href="#about">Sobre</a></li>
+                    <li class="nav_item"><a href="#skills">Habilidades</a></li>
+                    <li class="nav_item"><a href="#projects">Projetos</a></li>
+                </ul>
+            </div>
+
+            <div class="btn_list">
+                <button><a onclick="showList()"><i class="ph-list-light"></i></a></button>
+            </div>
+
+        </nav>
+
+            <div class="mobile_nav_list">
+                <ul>
+                    <li><a class="nav_item" href="#home">Início</a></li>
+                    <li><a class="nav_item" href="#about">Sobre</a></li>
+                    <li><a class="nav_item" href="#skills">Habilidades</a></li>
+                    <li><a class="nav_item" href="#projects">Projetos</a></li>
+                </ul>
+            </div>
+        
+    </header>
+    <main>
+
+            <!-- Home -->
+        <section class="home" id="home">
+            <div class="home_container">
+                
+                <div class="home_left">
+                    <h1>Olá, meu nome é</h1>
+                    <h1 class="name_title">Ronildo Araujo Pereira</h1>
+                    <h2>Sou <span class="profession_title" id="profession_title">Desenvolvedor Front-End</span></h2>
+                    <a class="cv" href="cv.pdf/Ronildo Araujo.pdf" target="_blank">Meu currículo</a>
+
+                    <div class="social_media">
+                        <a href="https://www.linkedin.com/in/ronildoaraujo/" target="blank_"><i class="devicon-linkedin-plain"></i></a>
+                        <a href="https://github.com/ronildoaraujo1" target="blank_"><i class="devicon-github-original"></i></a>
+                    </div>
+                </div>
+
+                <div class="home_right">
+                    <img class="home_animated_image" src="img/home-animated.svg" alt="Animação de um desenvolvedor tendo várias ideias">
+
+                </div>
+
+            </div>
+        </section>
+
+            <!-- About -->
+        <section class="about" id="about">
+            <div class="about_container">
+                
+                <div class="about_left">
+                    <img class="about_animated_image" src="img/about-animated.svg" alt="Animação de uma pessoa utilizando o computador">
+                </div>
+
+                <div class="about_right">
+                    <h1 class="about_title">Sobre mim</h1>
+                    <p>Apaixonado por tecnologia desde a infância, sempre estive atrelado. Cursei Publicidade e Propaganda, mas não estava satisfeito, pois sempre simpatizei com a área da tecnologia. Por anos busquei me achar nesse imenso mundo da programação. Procurei me qualificar, estudando, buscando conhecimento com aprendizado adquirido dia após dia. Atualmente curso Engenharia de Software e tenho estudado massivamente através de cursos e documentações as tecnologias Front-End como HTML, CSS, JavaScript, React, TypeScript, além da Lógica de Programação. Estudo também Python, PHP, C#, Java, C++ para me tornar um futuro Full Stack.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+                <h1>Habilidades</h1>
+                <div class="skills_container">
+                        <!-- HTML5 Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="HTML5" class="skills_images"/>
+                        <!-- CSS3 Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="CSS3" class="skills_images"/>
+                        <!-- JavaScript Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript" class="skills_images"/>
+                        <!-- React Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" class="skills_images"/>
+                        <!-- React Icon-->                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="skills_images"/>
+                </div>
+                <div class="skills_container_2">
+                        <!-- NodeJS Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" class="skills_images"/>
+                        <!-- PHP Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" alt="PHP" class="skills_images"/>
+                        <!-- Java Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skills_images"/>
+                        <!-- MySQL Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" alt="MySQL" class="skills_images"/>
+                        <!-- PostgreSQL Icon -->
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="MySQL" class="skills_images"/>
+                </div>
+            </div>
+        </section>
+
+            <!-- Projects -->
+        <section class="projects" id="projects">
+            <h1>Meus Projetos</h1>
+                
+            <div class="projects_container">
+
+                    <!-- Project 1-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+                    <!-- Project 2-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+                    <!-- Project 3-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+                <!-- Project 4-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+                <!-- Project 5-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+                <!-- Project 6-->
+                <div class="projects_cards">
+                    <h1 class="project_title">Em breve</h1>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <span>Desenvolvido por Ronildo Araujo</span>
+    </footer>
+</body>
+</html>
